@@ -27,9 +27,9 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭─「 %me 🤖」
-│ 👋🏻 Hai, %name!
+│ 👋🏻 Halo, %name!
 │
-│ 🧱 Limit : *%limit Limit*
+│ ✨ Limit : *%limit Limit*
 │ 🦸🏼‍♂️ Role : *%role*
 │ 🔼 Level : *%level (%exp / %maxexp)*
 │ 💫 Total XP : %totalexp ✨
