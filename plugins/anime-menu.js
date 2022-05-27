@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command }) => {
   let api = `https://api-faza.herokuapp.com/api/wallpaper/${command}?apikey=FZDEVELOPER`
-  conn.sendButton(m.chat, 'nih kak', author, api, [['lagii', `/${command}`]], m)  
+  conn.sendButton(m.chat, 'nih kak', author, api, [['Lagi', `/${command}`]], m)  
 }
 
 handler.command = handler.help = [
