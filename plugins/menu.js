@@ -45,8 +45,7 @@ const defaultMenu = {
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname* | %version
-${'```%npmdesc```'}
+${'```NagatoroBot By Senpai```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
